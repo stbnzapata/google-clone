@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.principalHeader{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.principalHeader .navBar{
+    width: 25%;
+}
+
+.principalHeader .navBar .list-menu{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 5%;
+}
+
+.principalHeader .navBar .list-menu .list-item{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2.5%;
+}
+
+.principalHeader .navBar .list-menu .list-item .link-item{
+    text-decoration: none;    
+    color: black;
+    cursor: pointer; 
+}
+
+.principalHeader .navBar .list-menu .list-item .link-item:hover{
+    text-decoration: underline;
+}
+
+.principalHeader .navBar .list-menu .menu-icon{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/162/162740.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.principalHeader .navBar .list-menu .list-item .link-item .img-photo{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
