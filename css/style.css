@@ -56,3 +56,120 @@
     height: 35px;
     border-radius: 50%;
 }
+
+/* main */
+
+.container-main{
+    margin-top: 50px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+
+/* logo */
+
+.container-main .main-logo{
+    width: 500px;
+    text-align: center;
+}
+
+/* input */
+
+.container-main .main-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;    
+    border: 0.5px solid Gainsboro;
+    width: 650px;
+    height: 44px;
+}
+
+.main-input:hover{
+    box-shadow: 0 2px 12px 0 #20212447;
+    border-color: silver;
+}
+
+.main-input-container{
+    display: flex;
+    align-items: center;
+}
+
+.micro-icon{
+    width: 35px;
+    height: 35px;
+}
+
+.img-search-icon{
+    width: 15px;
+    height: 15px;
+}
+
+.container-main .main-input .input{
+    width: 550px;
+    height: 42px;
+    border: none;
+    outline: none;
+    margin: 0 2.5%;
+}
+
+/* buttons */
+
+.container-main .main-buttons{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-main .main-buttons .container-button{
+    margin: 0 2%;    
+}
+
+.container-main .main-buttons .container-button .btn{
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 0.25px solid Gainsboro;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+}
+
+.container-main .main-buttons .container-button .btn:hover{
+    border-color: silver;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f2f2f2;
+    border-top: 1 solid #e4e4e4;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+
+.list-item-footer{
+    margin:0 2.5%;
+}
+
+.link-item-footer{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
